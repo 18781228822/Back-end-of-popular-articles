@@ -23,18 +23,35 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+            <scope>provided</scope>
+        </dependency>
+		
+		<dependency>
+    		<groupId>org.jsoup</groupId>
+      		<artifactId>jsoup</artifactId>
+     		 <version>1.11.3</version>
+  		</dependency>
+		
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>2.1.1</version>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
 			 <groupId>net.sf.json-lib</groupId>
 	 <artifactId>json-lib</artifactId>
 		<version>2.4</version>
 		 <classifier>jdk15</classifier>
 		</dependency>
 		<dependency>
+=======
+>>>>>>> branch 'master' of https://github.com/GGboyzhy/tools
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
