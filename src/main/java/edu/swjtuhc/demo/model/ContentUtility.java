@@ -1,9 +1,5 @@
 package edu.swjtuhc.demo.model;
 
-import org.jsoup.Jsoup;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
