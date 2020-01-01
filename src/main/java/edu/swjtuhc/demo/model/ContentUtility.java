@@ -8,6 +8,11 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.jsoup.Jsoup;
+
 public class ContentUtility {
     private static final int SHORT_CUT_LINE=2;
     private static final Pattern PATTERN_COVER=Pattern.compile("\\]\\(/[0-9]{13,14}_[0-9]{5}.png\\)");

@@ -3,6 +3,8 @@ package edu.swjtuhc.demo.model;
 import lombok.Data;
 import java.util.List;
 
+import org.apache.tomcat.jni.User;
+
 @Data
 public class ArticleComment {
     private Integer id;//主键id

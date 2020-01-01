@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import edu.swjtuhc.demo.model.Article;
 import edu.swjtuhc.demo.service.GetArticleService;
 
 @RestController

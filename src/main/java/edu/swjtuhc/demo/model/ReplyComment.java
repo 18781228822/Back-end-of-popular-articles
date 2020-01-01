@@ -1,5 +1,7 @@
 package edu.swjtuhc.demo.model;
 
+import org.apache.catalina.User;
+
 import lombok.Data;
 
 @Data

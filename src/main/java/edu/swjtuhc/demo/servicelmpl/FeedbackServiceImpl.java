@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import edu.swjtuhc.demo.mapper.FeedbackMapper;
 import edu.swjtuhc.demo.model.Advise;
-import edu.swjtuhc.demo.model.Article;
 import edu.swjtuhc.demo.service.FeedbackService;
 
 @Service
